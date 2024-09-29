@@ -48,8 +48,8 @@ public class CalcInterest {
             return ERROR_CASE;
         }
         String message = "";
-
-        float interestValue;
+        float interestValue = -1f;
+        
         if (loanAmount < HUNDRED_THOUSAND) {
             message = "loanAmount < $100k";
             interestValue = (yearLoan <= FIVE_YEARS)

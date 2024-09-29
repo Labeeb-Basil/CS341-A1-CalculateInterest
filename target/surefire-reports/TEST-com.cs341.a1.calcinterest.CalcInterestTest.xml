@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.cs341.a1.calcinterest.CalcInterestTest" time="0.283" tests="112" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.cs341.a1.calcinterest.CalcInterestTest" time="0.278" tests="112" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/test/NetBeansProjects/CalcInterest/target/surefire/surefirebooter-20240929003923996_3.jar /Users/test/NetBeansProjects/CalcInterest/target/surefire 2024-09-29T00-39-23_907-jvmRun1 surefire-20240929003923996_1tmp surefire_0-20240929003923996_2tmp"/>
+    <property name="sun.java.command" value="/Users/test/NetBeansProjects/CalcInterest/target/surefire/surefirebooter-20240929172124803_3.jar /Users/test/NetBeansProjects/CalcInterest/target/surefire 2024-09-29T17-21-24_740-jvmRun1 surefire-20240929172124803_1tmp surefire_0-20240929172124803_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/test/NetBeansProjects/CalcInterest/target/test-classes:/Users/test/NetBeansProjects/CalcInterest/target/classes:/Users/test/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/test/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/test/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/test/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/test/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/test/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/test/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/test/NetBeansProjects/CalcInterest/target/surefire/surefirebooter-20240929003923996_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/test/NetBeansProjects/CalcInterest/target/surefire/surefirebooter-20240929172124803_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="20+36-2344"/>
@@ -58,7 +58,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[1]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.049">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[1]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.045">
     <system-out><![CDATA[loanAmount < $100k Result: 16000.0
 ]]></system-out>
   </testcase>
@@ -76,12 +76,12 @@
     <system-out><![CDATA[loanAmount < $100k Result: 39999.6
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[7]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.002">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[7]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
     <system-out><![CDATA[loanAmount < $500k Result: 32500.0
 ]]></system-out>
   </testcase>
   <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[8]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001"/>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[9]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[9]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.002">
     <system-out><![CDATA[loanAmount < $100k Result: 0.4
 ]]></system-out>
   </testcase>
@@ -108,7 +108,7 @@
     <system-out><![CDATA[loanAmount < $500k Result: 45900.0
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[18]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[18]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
     <system-out><![CDATA[loanAmount < $100k Result: 59999.4
 ]]></system-out>
   </testcase>
@@ -116,12 +116,12 @@
     <system-out><![CDATA[loanAmount < $500k Result: 42500.0
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[20]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001"/>
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[20]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0"/>
   <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[21]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
     <system-out><![CDATA[loanAmount < $100k Result: 0.6
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[22]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0"/>
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[22]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001"/>
   <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[23]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
     <system-out><![CDATA[loanAmount < $100k Result: 11999.88
 ]]></system-out>
@@ -164,7 +164,7 @@
     <system-out><![CDATA[loanAmount < $100k Result: 39999.6
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[35]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[35]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
     <system-out><![CDATA[loanAmount < $100k Result: 38999.61
 ]]></system-out>
   </testcase>
@@ -184,8 +184,8 @@
     <system-out><![CDATA[loanAmount < $100k Result: 49000.0
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[40]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0"/>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[41]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[40]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001"/>
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[41]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
     <system-out><![CDATA[loanAmount < $500k Result: 91800.0
 ]]></system-out>
   </testcase>
@@ -193,7 +193,7 @@
     <system-out><![CDATA[loanAmount < $100k Result: 76499.24
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[43]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[43]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
     <system-out><![CDATA[loanAmount < $500k Result: 76500.0
 ]]></system-out>
   </testcase>
@@ -210,7 +210,7 @@
     <system-out><![CDATA[loanAmount < $100k Result: 50999.49
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[48]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[48]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
     <system-out><![CDATA[Error Case in: loanAmount < $100k Result: -1
 ]]></system-out>
   </testcase>
@@ -222,7 +222,7 @@
     <system-out><![CDATA[loanAmount < $100k Result: 29250.0
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[51]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0"/>
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[51]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001"/>
   <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[52]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
     <system-out><![CDATA[Error Case in: loanAmount < $500k Result: -1
 ]]></system-out>
@@ -231,12 +231,12 @@
     <system-out><![CDATA[loanAmount < $100k Result: 351996.48
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[54]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[54]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
     <system-out><![CDATA[Error Case in: loanAmount < $500k Result: -1
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[55]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001"/>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[56]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[55]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0"/>
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[56]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
     <system-out><![CDATA[loanAmount < $100k Result: 3.52
 ]]></system-out>
   </testcase>
@@ -248,7 +248,7 @@
     <system-out><![CDATA[loanAmount < $100k Result: 60499.4
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[59]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[59]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
     <system-out><![CDATA[loanAmount < $100k Result: 224000.0
 ]]></system-out>
   </testcase>
@@ -269,12 +269,12 @@
     <system-out><![CDATA[Error Case in: loanAmount < $500k Result: -1
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[65]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0"/>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[66]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[65]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001"/>
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[66]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
     <system-out><![CDATA[loanAmount < $100k Result: 4.48
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[67]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[67]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
     <system-out><![CDATA[Error Case in: loanAmount < $100k Result: -1
 ]]></system-out>
   </testcase>
@@ -282,7 +282,7 @@
     <system-out><![CDATA[loanAmount < $100k Result: 76999.23
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[69]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[69]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
     <system-out><![CDATA[loanAmount < $500k Result: 104650.0
 ]]></system-out>
   </testcase>
@@ -295,7 +295,7 @@
     <system-out><![CDATA[loanAmount < $100k Result: 40950.0
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[73]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[73]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
     <system-out><![CDATA[Error Case in: loanAmount >= $500k Result: -1
 ]]></system-out>
   </testcase>
@@ -303,15 +303,15 @@
     <system-out><![CDATA[loanAmount < $500k Result: 324999.35
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[75]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[75]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
     <system-out><![CDATA[Error Case in: loanAmount >= $500k Result: -1
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[76]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[76]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
     <system-out><![CDATA[loanAmount < $100k Result: 64999.35
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[77]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[77]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
     <system-out><![CDATA[loanAmount < $500k Result: 65000.0
 ]]></system-out>
   </testcase>
@@ -328,8 +328,8 @@
     <system-out><![CDATA[loanAmount < $500k Result: 136850.0
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[82]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0"/>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[83]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[82]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001"/>
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[83]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
     <system-out><![CDATA[Error Case in: loanAmount < $500k Result: -1
 ]]></system-out>
   </testcase>
@@ -337,7 +337,7 @@
     <system-out><![CDATA[loanAmount < $100k Result: 53550.0
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[85]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[85]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
     <system-out><![CDATA[Error Case in: loanAmount >= $500k Result: -1
 ]]></system-out>
   </testcase>
@@ -345,7 +345,7 @@
     <system-out><![CDATA[loanAmount < $500k Result: 382499.24
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[87]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[87]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
     <system-out><![CDATA[Error Case in: loanAmount >= $500k Result: -1
 ]]></system-out>
   </testcase>
@@ -353,7 +353,7 @@
     <system-out><![CDATA[loanAmount < $100k Result: 76499.24
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[89]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[89]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
     <system-out><![CDATA[loanAmount < $500k Result: 76500.0
 ]]></system-out>
   </testcase>
@@ -366,7 +366,7 @@
     <system-out><![CDATA[Error Case in: loanAmount < $500k Result: -1
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[93]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[93]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
     <system-out><![CDATA[loanAmount >= $500k Result: 2083840.0
 ]]></system-out>
   </testcase>
@@ -382,11 +382,11 @@
     <system-out><![CDATA[loanAmount < $500k Result: 162630.0
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[97]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[97]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
     <system-out><![CDATA[loanAmount >= $500k Result: 302500.0
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[98]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[98]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
     <system-out><![CDATA[loanAmount >= $500k Result: 302500.61
 ]]></system-out>
   </testcase>
@@ -406,7 +406,7 @@
     <system-out><![CDATA[loanAmount < $500k Result: 324999.35
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[103]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[103]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
     <system-out><![CDATA[loanAmount >= $500k Result: 2652160.0
 ]]></system-out>
   </testcase>
@@ -414,15 +414,15 @@
     <system-out><![CDATA[Error Case in: loanAmount >= $500k Result: -1
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[105]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[105]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
     <system-out><![CDATA[Error Case in: loanAmount < $500k Result: -1
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[106]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[106]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
     <system-out><![CDATA[loanAmount < $500k Result: 212670.0
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[107]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[107]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
     <system-out><![CDATA[loanAmount >= $500k Result: 385000.0
 ]]></system-out>
   </testcase>
@@ -430,7 +430,7 @@
     <system-out><![CDATA[loanAmount >= $500k Result: 385000.77
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[109]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[109]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
     <system-out><![CDATA[Error Case in: loanAmount < $500k Result: -1
 ]]></system-out>
   </testcase>
@@ -442,7 +442,7 @@
     <system-out><![CDATA[loanAmount >= $500k Result: 420000.0
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[112]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.0">
+  <testcase name="testCalculateLoanInterest_fromCsvFile(int, double, int, int, float)[112]" classname="com.cs341.a1.calcinterest.CalcInterestTest" time="0.001">
     <system-out><![CDATA[Error Case in: loanAmount < $500k Result: -1
 ]]></system-out>
   </testcase>
